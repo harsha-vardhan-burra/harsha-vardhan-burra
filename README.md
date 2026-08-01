@@ -8,7 +8,19 @@
 
 Building performant software, production-ready systems, and developer-focused tools.
 
-<a href="https://github.com/harsha-vardhan-burra" target="_blank"><img src="https://img.shields.io/badge/GitHub-harsha--vardhan--burra-181717?style=flat&logo=github" alt="GitHub" /></a>
+<p align="center">
+  <a href="https://github.com/harsha-vardhan-burra">
+    <img
+      src="https://skillicons.dev/icons?i=github"
+      width="42"
+      alt="GitHub"
+      style="vertical-align: middle;"
+    />
+  </a>
+  <span style="font-size:20px; font-weight:600; vertical-align: middle;">
+    harsha-vardhan-burra
+  </span>
+</p>
 
 </div>
 
@@ -119,21 +131,86 @@ flowchart TD
 
 <br>
 
-## Technical Expertise
+## ⚡ Engineering Capabilities
 
-**Backend Engineering** — API design, JWT/OAuth authentication, rate limiting and abuse-resistant systems
-<img src="https://skillicons.dev/icons?i=java,spring,postgresql&perline=3" alt="Backend" />
+<table>
+<tr>
 
-**Frontend Engineering** — component-driven UI, interaction/animation polish
-<img src="https://skillicons.dev/icons?i=react,vite,javascript&perline=3" alt="Frontend" />
+<td width="50%" valign="top">
 
-**Desktop Applications** — packaging, local data persistence, offline-first design
-<img src="https://skillicons.dev/icons?i=python,sqlite&perline=2" alt="Desktop" />
+### ⚙️ Backend Engineering
 
-**Developer Workflow** — version control, release management, environment setup
-<img src="https://skillicons.dev/icons?i=git,github,bash,vscode&perline=5" alt="Tools" />
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring,postgresql&theme=dark" />
+</p>
 
-<br>
+Designing secure backend systems focused on:
+
+- REST APIs
+- JWT / OAuth
+- Rate Limiting
+- Production Reliability
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎨 Frontend Engineering
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,vite,js&theme=dark" />
+</p>
+
+Building polished user experiences through:
+
+- Component-driven UI
+- Responsive Design
+- GSAP Animations
+- Performance Optimization
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 🖥 Desktop Engineering
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,sqlite&theme=dark" />
+</p>
+
+Creating native desktop applications with:
+
+- Offline-first Architecture
+- Local Persistence
+- Packaging
+- Analytics
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🛠 Developer Workflow
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,bash,vscode&theme=dark" />
+</p>
+
+Shipping software through:
+
+- Version Control
+- Automation
+- Release Management
+- Developer Tooling
+
+</td>
+
+</tr>
+
+</table>
 
 ## Roadmap
 
