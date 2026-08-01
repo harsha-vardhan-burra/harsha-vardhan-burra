@@ -1,0 +1,61 @@
+name: "Pac-Man Contribution Graph"
+description: >
+  Renders your GitHub contribution graph as an animated SVG where Pac-Man
+  travels through the grid and consumes contribution days. No ghosts,
+  no pellets, no game logic — the contribution graph stays the primary
+  visual, Pac-Man is just an animated cursor.
+author: "harsha-vardhan-burra"
+branding:
+  icon: "circle"
+  color: "yellow"
+
+inputs:
+  github_user_name:
+    description: "GitHub username to read the contribution graph from"
+    required: true
+  github_token:
+    description: "Token with permission to read the user's contributions (a plain GITHUB_TOKEN works for public data)"
+    required: true
+  outputs:
+    description: >
+      Newline-separated list of output file paths. Each can have a query
+      string, e.g. "dist/pacman-dark.svg?theme=dark". Defaults to
+      dist/pacman.svg (light) and dist/pacman-dark.svg (dark) if omitted.
+    required: false
+    default: ""
+  animation_speed:
+    description: "Seconds for one full traversal of the contribution graph"
+    required: false
+    default: "20"
+  pacman_size:
+    description: "Pac-Man diameter in pixels"
+    required: false
+    default: "14"
+  show_trail:
+    description: "Whether to draw a fading trail line behind Pac-Man's path"
+    required: false
+    default: "false"
+  trail_color:
+    description: "Color of the trail line, if show_trail is true"
+    required: false
+    default: "#58a6ff"
+  background_color:
+    description: "Optional background fill color; omit for a transparent background"
+    required: false
+    default: ""
+  loop:
+    description: "Whether the animation repeats indefinitely"
+    required: false
+    default: "true"
+  theme:
+    description: "Default theme (light or dark) for any output whose theme isn't otherwise specified"
+    required: false
+    default: "light"
+
+outputs:
+  output_paths:
+    description: "Comma-separated list of file paths that were written"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"

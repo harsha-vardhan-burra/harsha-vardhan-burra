@@ -2,8 +2,8 @@ name: Generate Pac-Man Contribution Graph
 
 on:
   schedule:
-    - cron: "0 */24 * * *" # runs once a day
-  workflow_dispatch: # lets you trigger it manually from the Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -16,20 +16,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Pac-Man graph
+        uses: ./.github/actions/pacman-graph
         with:
           github_user_name: ${{ github.repository_owner }}
-          # games: 'pacman'   # default is pacman; add e.g. 'pacman,breakout' for more than one
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # animation_speed: "20"
+          # show_trail: "false"
 
-      - name: Push SVG to the output branch
+      - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
-          # If the default GITHUB_TOKEN keeps failing with "Invalid username or token"
-          # (common on forks, or if repo Settings > Actions > Workflow permissions
-          # won't take), create a classic PAT with `repo` scope, save it as a repo
-          # secret named PAGES_TOKEN, and this will use that instead.
           GITHUB_TOKEN: ${{ secrets.PAGES_TOKEN || secrets.GITHUB_TOKEN }}

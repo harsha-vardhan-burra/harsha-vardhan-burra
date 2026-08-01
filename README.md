@@ -27,7 +27,6 @@ I like building the part of a project that only becomes visible once it leaves y
 | **Building** | [GoldTracker](https://github.com/harsha-vardhan-burra/GoldTracker) v2, [SnapLink](https://github.com/harsha-vardhan-burra/SnapLink) |
 | **Learning** | System design, containerized deployments |
 | **Interested in** | Backend engineering, abuse-resistant systems, developer tooling |
-| **Current goal** | Take SnapLink from "working" to "survives being public" |
 
 <br>
 
@@ -64,6 +63,7 @@ I like building the part of a project that only becomes visible once it leaves y
 <summary><strong>Architecture</strong></summary>
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#34D399', 'primaryTextColor': '#fff', 'primaryBorderColor': '#34D399', 'lineColor': '#34D399', 'background': '#0d1117'}}}%%
 flowchart TD
     A[Gold Price API] --> B[Data Ingestion]
     B --> C[Analytics Engine]
@@ -98,6 +98,7 @@ flowchart TD
 <summary><strong>Architecture</strong></summary>
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#34D399', 'primaryTextColor': '#fff', 'primaryBorderColor': '#34D399', 'lineColor': '#34D399', 'background': '#0d1117'}}}%%
 flowchart TD
     A[Client — React/Vite] --> B[Spring Boot API]
     B --> C[Authentication — JWT + OAuth]
@@ -130,31 +131,6 @@ flowchart TD
 
 <br>
 
-## GitHub Metrics
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=harsha-vardhan-burra&show_icons=true&theme=tokyonight&bg_color=0d1117&hide_border=true" alt="GitHub Stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harsha-vardhan-burra&theme=tokyonight&background=0d1117&border=0d1117" alt="Streak Stats" width="49%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=harsha-vardhan-burra&layout=compact&theme=tokyonight&bg_color=0d1117&hide_border=true" alt="Top Languages" width="49%" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=harsha-vardhan-burra&theme=github-dark&hide_border=true&bg_color=0D1117&color=34D399&line=34D399&point=FFFFFF&area=true&area_color=34D399" alt="Activity Graph" width="90%" />
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harsha-vardhan-burra/harsha-vardhan-burra/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harsha-vardhan-burra/harsha-vardhan-burra/output/github-contribution-grid-snake.svg">
-    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/harsha-vardhan-burra/harsha-vardhan-burra/output/github-contribution-grid-snake-dark.svg" width="90%">
-  </picture>
-</div>
-
-<br>
-
 ## Roadmap
 
 **Shipped**
@@ -163,7 +139,7 @@ flowchart TD
 
 **In progress**
 - [ ] GoldTracker v2 — deeper analytics, refined UX
-- [ ] SnapLink — production deployment hardening
+- [ ] SnapLink — production deployment hardening (current goal: take it from "working" to "survives being public")
 
 **Next**
 - [ ] Docker-based deployment workflows
@@ -202,4 +178,25 @@ flowchart TD
   <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
 </a>
 
+</div>
+
+<br>
+
+## GitHub Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=harsha-vardhan-burra&show_icons=true&theme=tokyonight&bg_color=0d1117&hide_border=true" alt="GitHub Stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harsha-vardhan-burra&theme=tokyonight&background=0d1117&border=0d1117" alt="Streak Stats" width="49%" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=harsha-vardhan-burra&theme=github-dark&hide_border=true&bg_color=0D1117&color=34D399&line=34D399&point=FFFFFF&area=true&area_color=34D399" alt="Activity Graph" width="90%" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harsha-vardhan-burra/harsha-vardhan-burra/output/dist/pacman-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harsha-vardhan-burra/harsha-vardhan-burra/output/dist/pacman.svg">
+    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/harsha-vardhan-burra/harsha-vardhan-burra/output/dist/pacman.svg" width="90%">
+  </picture>
 </div>
