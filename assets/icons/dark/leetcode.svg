@@ -1,0 +1,9 @@
+<svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LeetCode" class="icon icon-leetcode">
+  <title>LeetCode</title>
+  <desc>PLACEHOLDER for LeetCode — run scripts/build-icons.mjs to replace with the official mark</desc>
+  <g>
+    <rect x="5" y="5" width="22" height="22" rx="4" fill="none" stroke="#E6EDF3" stroke-width="1.75" stroke-dasharray="3 2"/>
+    <text x="16" y="20.5" font-family="Fira Code, Menlo, monospace" font-size="9" font-weight="700"
+          text-anchor="middle" fill="#E6EDF3">LC</text>
+  </g>
+</svg>

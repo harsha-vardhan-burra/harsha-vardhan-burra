@@ -1,0 +1,7 @@
+<svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vite" class="icon icon-vite">
+  <title>Vite</title>
+  <desc>Lightning bolt icon representing the Vite build tool</desc>
+  <g fill="currentColor" stroke="none">
+    <path d="M18.5 4L7 18.5h7l-1.5 9.5L26 13h-7.5z"/>
+  </g>
+</svg>

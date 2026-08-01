@@ -1,0 +1,9 @@
+<svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CodeChef" class="icon icon-codechef">
+  <title>CodeChef</title>
+  <desc>PLACEHOLDER for CodeChef — run scripts/build-icons.mjs to replace with the official mark</desc>
+  <g>
+    <rect x="5" y="5" width="22" height="22" rx="4" fill="none" stroke="#24292F" stroke-width="1.75" stroke-dasharray="3 2"/>
+    <text x="16" y="20.5" font-family="Fira Code, Menlo, monospace" font-size="9" font-weight="700"
+          text-anchor="middle" fill="#24292F">CC</text>
+  </g>
+</svg>
