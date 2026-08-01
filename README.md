@@ -8,19 +8,19 @@
 
 Building performant software, production-ready systems, and developer-focused tools.
 
-<p align="center">
-  <a href="https://github.com/harsha-vardhan-burra">
-    <img
-      src="https://skillicons.dev/icons?i=github"
-      width="42"
-      alt="GitHub"
-      style="vertical-align: middle;"
-    />
-  </a>
-  <span style="font-size:20px; font-weight:600; vertical-align: middle;">
-    harsha-vardhan-burra
-  </span>
-</p>
+<div align="center">
+
+<a href="https://github.com/harsha-vardhan-burra">
+<img src="https://skillicons.dev/icons?i=github" width="44" alt="GitHub">
+</a>
+
+<br>
+
+<a href="https://github.com/harsha-vardhan-burra">
+<b>harsha-vardhan-burra</b>
+</a>
+
+</div>
 
 </div>
 
