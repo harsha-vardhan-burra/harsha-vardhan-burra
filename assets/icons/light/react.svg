@@ -1,8 +1,8 @@
 <svg viewBox="0 0 32 32" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="React" class="icon icon-react">
   <title>React</title>
   <desc>React atom logo — nucleus with three orbiting ellipses</desc>
-  <g fill="none" stroke="#24292F" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="16" cy="16" r="2.1" fill="#24292F" stroke="none"/>
+  <g fill="none" stroke="#61DAFB" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="16" cy="16" r="2.1" fill="#61DAFB" stroke="none"/>
     <ellipse cx="16" cy="16" rx="11" ry="4.3"/>
     <ellipse cx="16" cy="16" rx="11" ry="4.3" transform="rotate(60 16 16)"/>
     <ellipse cx="16" cy="16" rx="11" ry="4.3" transform="rotate(120 16 16)"/>
